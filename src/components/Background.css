@@ -1,0 +1,15 @@
+.pan-container {
+  width: 100vw;
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+  cursor: all-scroll;
+}
+
+.background {
+  font-size: x-large;
+  background-position: center;
+  position: absolute;
+  transform-origin: center;
+  transition: transform 0.3s;
+}

@@ -1,0 +1,51 @@
+.wrapper-scale {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+
+.list {
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50px;
+  left: 0;
+
+  background-color: white;
+  list-style: none;
+  :hover {
+    background-color: rgb(226, 230, 233);
+  }
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  align-items: center;
+  cursor: pointer;
+  padding: 4px 12px;
+}
+
+.button {
+  font-size: medium;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.scale-button {
+  font-size: medium;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  padding: 16px;
+  width: 80px;
+}
